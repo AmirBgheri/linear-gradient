@@ -1,0 +1,329 @@
+main{
+display: flex;
+flex-wrap: wrap;
+
+.box1{
+    width: 45%;
+    height: 500px;
+    background-image:linear-gradient(15deg, #d33f34 50%, #a61322 50.1%);
+    position: relative;
+    margin-right: 80px;
+    margin-left: 20px;
+    
+    >.pic{
+        position: absolute;
+        top: 90px;
+        left: 100px;
+        >img{
+            position: relative;
+            width: 100%;
+            height: 100%;
+           
+
+        }
+        >h1{
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            /* border: 2px solid black; */
+            text-align: center;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        >p{
+            &:nth-last-of-type(1){
+                position: absolute;
+                top: 55px;
+                left: 0;
+                width: 100%;
+                text-align: center;
+            }
+         
+
+        }
+
+        >.price{
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            /* border: 2px solid blue; */
+            width: 75%;
+            bottom: 25px;
+            left: 45px;
+            transition: 1s;
+            >p{
+                /* background-color: aqua; */
+                margin-right: 20px;
+            }
+            >a{
+                text-decoration: none;
+                width: 50%;
+                height: 30px;
+                /* border: 1px solid #a61322 ; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+                background-color: white;
+                color: black;
+                transition: .4s;
+                &:hover{
+                    color: white;
+                    background-image:linear-gradient(15deg, #d33f34 50%, #a61322 50.1%);
+                   
+                } 
+            }
+            
+
+        }
+    }
+
+}
+
+
+
+
+.box2{
+    width: 45%;
+    height: 500px;
+    background-image:linear-gradient(15deg, rgb(71, 149, 209) 50%, rgb(0, 110, 184) 50.1%);
+    position: relative;
+    /* margin-right: 80px;
+    margin-left: 20px; */
+    
+    >.pic{
+        position: absolute;
+        top: 90px;
+        left: 100px;
+        >img{
+            position: relative;
+            width: 100%;
+            height: 100%;
+           
+
+        }
+        >h1{
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            /* border: 2px solid black; */
+            text-align: center;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        >p{
+            &:nth-last-of-type(1){
+                position: absolute;
+                top: 55px;
+                left: 0;
+                width: 100%;
+                text-align: center;
+            }
+         
+
+        }
+
+        >.price{
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            /* border: 2px solid blue; */
+            width: 75%;
+            bottom: 25px;
+            left: 45px;
+            transition: 1s;
+            >p{
+                /* background-color: aqua; */
+                margin-right: 20px;
+            }
+            >a{
+                text-decoration: none;
+                width: 50%;
+                height: 30px;
+                /* border: 1px solid #a61322 ; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+                background-color: white;
+                color: black;
+                transition: .4s;
+                &:hover{
+                    color: white;
+                    background-image:linear-gradient(15deg, rgb(71, 149, 209) 50%, rgb(0, 110, 184) 50.1%);
+                   
+                } 
+            }
+            
+
+        }
+    }
+
+}
+
+
+
+.box3
+{
+    width: 45%;
+    height: 500px;
+    background-image:linear-gradient(15deg, rgb(108, 217, 106) 50%, rgb(0, 152, 111) 50.1%);
+    position: relative;
+    margin-right: 80px;
+    margin-left: 20px;
+    margin-top: 40px;
+    
+    >.pic{
+        position: absolute;
+        top: 90px;
+        left: 100px;
+        >img{
+            position: relative;
+            width: 100%;
+            height: 100%;
+           
+
+        }
+        >h1{
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            /* border: 2px solid black; */
+            text-align: center;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        >p{
+            &:nth-last-of-type(1){
+                position: absolute;
+                top: 55px;
+                left: 0;
+                width: 100%;
+                text-align: center;
+            }
+         
+
+        }
+
+        >.price{
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            /* border: 2px solid blue; */
+            width: 75%;
+            bottom: 25px;
+            left: 45px;
+            transition: 1s;
+            >p{
+                /* background-color: aqua; */
+                margin-right: 20px;
+            }
+            >a{
+                text-decoration: none;
+                width: 50%;
+                height: 30px;
+                /* border: linear-gradient(15deg, rgb(108, 217, 106) 50%, rgb(0, 152, 111) 50.1%); */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+                background-color: white;
+                color: black;
+                transition: .4s;
+                &:hover{
+                    color: white;
+                    background-image:linear-gradient(15deg, rgb(108, 217, 106) 50%, rgb(0, 152, 111) 50.1%);
+                   
+                } 
+            }
+            
+
+        }
+    }
+
+}
+
+
+.box4{
+    width: 45%;
+    height: 500px;
+    background-image:linear-gradient(15deg, rgb(41, 42, 47) 50%, rgb(19, 21, 25) 50.1%);
+    position: relative;
+    /* margin-right: 80px;
+    margin-left: 20px; */
+    margin-top: 40px;
+    
+    >.pic{
+        position: absolute;
+        top: 90px;
+        left: 100px;
+        >img{
+            position: relative;
+            width: 100%;
+            height: 100%;
+           
+
+        }
+        >h1{
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            /* border: 2px solid black; */
+            text-align: center;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        >p{
+            &:nth-last-of-type(1){
+                position: absolute;
+                top: 55px;
+                left: 0;
+                width: 100%;
+                text-align: center;
+            }
+         
+
+        }
+
+        >.price{
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            /* border: 2px solid blue; */
+            width: 75%;
+            bottom: 25px;
+            left: 45px;
+            transition: 1s;
+            >p{
+                /* background-color: aqua; */
+                margin-right: 20px;
+            }
+            >a{
+                text-decoration: none;
+                width: 50%;
+                height: 30px;
+                /* border: 1px solid #a61322 ; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+                background-color: white;
+                color: black;
+                transition: .4s;
+                &:hover{
+                    color: white;
+                    background-image:linear-gradient(15deg, rgb(41, 42, 47) 50%, rgb(19, 21, 25) 50.1%);
+                   
+                } 
+            }
+            
+
+        }
+    }
+
+}
+}
